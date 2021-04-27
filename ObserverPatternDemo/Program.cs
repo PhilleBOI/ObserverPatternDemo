@@ -21,7 +21,10 @@ namespace ObserverPatternDemo
 
             subject.Inventory++;
 
+            subject.Unsubscribe(observer1);
+
             Console.ReadLine();
+
         }
     }
 }
